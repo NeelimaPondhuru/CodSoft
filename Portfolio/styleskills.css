@@ -1,0 +1,90 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family:'Georgia', 'Times New Roman', Times, serif;
+
+        }
+        body {
+            background-image: url("images/bg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .heading {
+            text-align: center;
+            margin-top: 2%;
+            font-size: 35px;
+            color: rgb(58, 167, 167);
+            font-weight: bold;
+        }
+        .container {
+
+            margin: 2%;
+            justify-content: center;
+            display: flex;
+            height: 80vh;
+            align-items: center;
+            gap:3em;
+            flex-grow: 1;
+            padding: 0 40px;
+        }
+        .div1 ,.div2 ,  .div3  {
+           
+            width:20rem;
+            height: 15rem;
+            background-color: rgb(166, 197, 224,0.2);
+            box-shadow: 5px 5px 10px rgb(172, 224, 226,0.2);
+            padding:10px 30px;
+            border-radius: 10px;
+        }
+        @media(max-width:1200px) {
+            .container {
+                height:100%;
+                flex-direction: column;
+            }
+            .div1 .div2 .div3{
+                max-width: 80%;
+                padding:30px;
+            }
+        }
+.div1 p {
+    margin-top: 20px;
+    color: rgb(47, 130, 130);
+    text-align: justify;
+    line-height: 1.2;
+}
+.div2 p {
+    margin-top: 10px;
+    color: rgb(42, 129, 129);
+    text-align: justify;
+    line-height: 1.2;
+}
+.div3 p {
+    margin-top: 20px;
+    color: rgb(77, 135, 135);
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.div1 ,.div2 ,  .div3  h3{
+    color: rgba(15, 119, 119, 0.785);
+    
+}
+.div4 ,.div5 ,  .div6  {
+    width:20rem;
+    height: 15rem;
+    background-color: rgb(166, 197, 224,0.2);
+    box-shadow: 5px 5px 10px rgb(172, 224, 226,0.2);
+    padding:10px 30px;
+   
+}
+.div4 h3 {
+    text-align: center;
+    color: rgba(15, 119, 119, 0.785);
+    
+}
+.div5 h3 {
+    text-align: center;
+    color: rgba(15, 119, 119, 0.785);
+    
+}
